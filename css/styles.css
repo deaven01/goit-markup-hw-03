@@ -30,7 +30,15 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 120px;
 }
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 /*-------------------LOGO------------------------*/
 .logo {
@@ -63,7 +71,6 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-bar {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .links {
@@ -71,10 +78,12 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 40px;
 }
 .page {
+    display: block;
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
 }
 .page:hover, .page:focus {
     color: #404BBF;
@@ -96,9 +105,9 @@ h1, h2, h3, h4, h5, h6, p {
 .banner {
     color: #ffffff;
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .banner .container {
-    padding: 188px 0; 
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -218,7 +227,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #F4F4FD;
     padding: 100px 0;
 }
-.finale .log {
+.finale .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
