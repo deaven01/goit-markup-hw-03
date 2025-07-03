@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .container {
     max-width: 1128px;
-    margin-left: 156px;
-    margin-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section {
     padding-top: 120px;
@@ -55,7 +55,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .navigation .container {
     display: flex;
-    height: 72px;
     justify-content: space-between;
     align-items: center;
 }
@@ -68,6 +67,7 @@ h1, h2, h3, h4, h5, h6, p {
 .links {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .page {
     color: #2E2F42;
@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: calc((100%-24px)/4);
 }
 .list-heading {
     font-weight: 500;
@@ -157,32 +158,61 @@ h1, h2, h3, h4, h5, h6, p {
 /*-------------------THIRD SECTION------------------------*/
 .team {
     background-color: #F4F4FD;
+    display: flex;
 }
-.team .subheader {
+.team .subheader, .portfolio .subheader {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+}
+.list {
+    margin-top: 72px;
+    display: flex;
+    gap: 24px;
 }
 .team .example{
     background-color: #ffffff;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px)/4);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
-.portfolio .subheader {
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
+.team .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 0;
+}
+/*-------------------FORTH SECTION------------------------*/
+.portfolio {
+    display: flex;
+}
+.apps {
+    display: flex;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+    margin-top: 72px;
+}
+.apps .text {
+    padding: 32px 16px 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .portfolio .example {
-    background-color: #ffffff;
+    width: calc((100%-48px)/3);
 }
-.portfolio .list-about {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-}
+/*-------------------FOOTER------------------------*/
 .finale {
     background-color: #2E2F42 ;
     color: #F4F4FD;
+    padding: 100px 0;
 }
 .footer-desc{
     letter-spacing: 0.02em;
+    padding-top: 16px;
+    width: 264px;
 }
