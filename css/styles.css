@@ -1,0 +1,131 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    background-color: #ffffff;
+    color: #434455;
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3%;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio{
+    color: #2e2f42;
+}
+.finale .studio{
+    color: #F4F4FD;
+}
+.navigation .page {
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.navigation .page:hover, .navigation .page:focus {
+    color: #404BBF;
+}
+.contacts {
+    font-style: normal;
+}
+.contacts .contact {
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.contacts .contact:hover, .contacts .contact:focus {
+    color: #404bbf;
+}
+.page, .contact {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 4%;
+    text-decoration: none;
+}
+.head {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    background-color: #2E2F42;
+}
+.subheader {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.list-heading {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.desc {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.banner {
+    color: #ffffff;
+    background-color: #2E2F42;
+}
+.banner .service {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.banner .service:hover, .banner .service:focus {
+    background-color: #404BBF;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team .subheader {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team .example{
+    background-color: #ffffff;
+    letter-spacing: 0.02em;
+}
+.portfolio .subheader {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.portfolio .example {
+    background-color: #ffffff;
+}
+.portfolio .list-about {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+.finale {
+    background-color: #2E2F42 ;
+    color: #F4F4FD;
+}
+.footer-desc{
+    letter-spacing: 0.02em;
+}
