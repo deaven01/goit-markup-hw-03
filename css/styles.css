@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: space-between;
     gap: 24px;
 }
-.benefits li{
+.benefits-list{
     display: flex;
     flex-direction: column;
     width: calc((100%-24px)/4);
